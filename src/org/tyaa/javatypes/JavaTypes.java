@@ -22,7 +22,7 @@ public class JavaTypes {
         //(new MyPrinter()).sayHello();
         
         //Value types (primitive)
-        byte b1 = 100;
+        /*byte b1 = 100;
         //https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
         char ch1 = 'A';
         for (int i = 0; i < 26; i++) {
@@ -44,7 +44,18 @@ public class JavaTypes {
         System.out.println(s2);
         
         System.out.println(s1 == s2);
-        System.out.println(s1.equals(s2));
+        System.out.println(s1.equals(s2));*/
+        
+        //String sumString = "";
+        /*for (int i = 0; i < 10; i++) {
+            sumString += String.valueOf(i);
+        }*/
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < 10; i++) {
+            sb.append(String.valueOf(i));
+        }
+        
+        System.out.println(sb.toString());
     }
     
 }
